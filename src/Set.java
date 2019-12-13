@@ -39,10 +39,15 @@ public class Set {
 
     public void printCardList(){
 
+        System.out.println("** Cardlist **");
+        System.out.println("Set:        "+getName()+"\n");
+
         for(int i = 0; i < cardList.size(); i++ ){
-            System.out.println(cardList.get(i).getID());
-            System.out.println(cardList.get(i).getName());
-            System.out.println(cardList.get(i).getCreator());
+            System.out.println("ID:         "+cardList.get(i).getID());
+            System.out.println("Name:       "+cardList.get(i).getName());
+            System.out.println("Creator:    "+cardList.get(i).getCreator());
+
+            System.out.println("");
         }
 
     }
