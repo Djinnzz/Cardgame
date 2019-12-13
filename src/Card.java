@@ -12,9 +12,9 @@ public class Card {
     private String name;       // cardname
     private String ID;         // card ID
 
-    String effectText;
+    private String effectText;
 
-    String creator;
+    private String creator;
 
     /**
      * Constructor

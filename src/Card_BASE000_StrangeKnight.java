@@ -5,10 +5,6 @@
 
 public class Card_BASE000_StrangeKnight extends Card_Creature{
 
-    /**
-     * Construktor
-     * */
-
     public Card_BASE000_StrangeKnight(){
 
         setName("Strange Knight");

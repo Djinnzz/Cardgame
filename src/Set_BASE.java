@@ -17,9 +17,10 @@ public class Set_BASE extends Set{
          * */
 
         Card_BASE000_StrangeKnight card_000 = new Card_BASE000_StrangeKnight();
-        cardList.add(card_000);
+        addToCardList(card_000);
+        Card_BASE001_AdventureGuild card_001 = new Card_BASE001_AdventureGuild();
+        addToCardList(card_001);
 
-        
     }
 
 }

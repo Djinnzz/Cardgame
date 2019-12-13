@@ -6,9 +6,23 @@ import java.util.ArrayList;
 
 public class Set {
 
-    String name;
+    private String name;                                    // name of the set
 
-    ArrayList cardList = new ArrayList<Card>();
+    private ArrayList<Card> cardList = new ArrayList<Card>();     // list of all cards in that set
+
+    /**
+     * Getter and Setter
+     * */
+
+    // only wrote a getter cuz setting it from outside is not needed
+
+    public ArrayList<Card> getCardList() {
+        return cardList;
+    }
+
+    public void addToCardList(Card card){
+        cardList.add(card);
+    }
 
     public void setName(String name) {
         this.name = name;
@@ -17,4 +31,21 @@ public class Set {
     public String getName() {
         return name;
     }
+
+    /**
+     * Print list method
+     * outputs the ArrayList cardList onto the console
+     * */
+
+    public void printCardList(){
+
+        for(int i = 0; i < cardList.size(); i++ ){
+            System.out.println(cardList.get(i).getID());
+            System.out.println(cardList.get(i).getName());
+            System.out.println(cardList.get(i).getCreator());
+        }
+
+    }
+
+
 }

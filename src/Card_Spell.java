@@ -1,4 +1,14 @@
+/**
+ * Spell-card class (superclass for all Spells)
+ * contains all spell related information
+ * */
+
+
 public class Card_Spell extends Card {
+
+    /**
+     * spell type
+     * */
 
     public enum Type {
         field,
@@ -7,6 +17,10 @@ public class Card_Spell extends Card {
     }
 
     private Type type;
+
+    /**
+     * Getter and Setter
+     * */
 
     public void setType(Type type) {
         this.type = type;
