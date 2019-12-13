@@ -1,0 +1,31 @@
+import java.lang.reflect.Type;
+
+/**
+ * Card: Strange Knight
+ * ID: BASE001
+ * */
+
+public class Card_BASE000_StrangeKnight extends Card_Creature{
+
+    /**
+     * Construktor
+     * */
+
+    public Card_BASE000_StrangeKnight(){
+
+        setName("Strange Knight");
+        setID("BASE001");
+
+        setAttack(800);
+        setDefense(400);
+        setCost(0);
+
+        setElement(Element.gaia);
+        setRace(Race.human);
+
+        setType(Type.effect);
+        setEffectText("When this card is summoned, you can search one \"Adventures-Guild\" card in your deck and take it to your hand. Shuffle your deck afterwards.");
+
+    }
+
+}

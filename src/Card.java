@@ -1,6 +1,6 @@
 /**
  * Card class
- * contains all information that a Card has
+ * contains ID and name of a card
  * */
 
 public class Card {
@@ -9,85 +9,37 @@ public class Card {
      * Card vars
      * */
 
-    String name;       // cardname
+    private String name;       // cardname
+    private String ID;         // card ID
 
-    int attack;        // card attack stat
-    int defense;       // card defense stat
-    int cost;          // cost of a card
-
-    /**
-     * Card types
-     * */
-
-    public enum type {
-        light,
-        darkness,
-        pyro,
-        aqua,
-        aero,
-        gaia
-    }
-
-    Card.type type;
-
-    /**
-     * Card races
-     * */
-
-    public enum race {
-        human,
-        dwarf,
-        elf,
-    }
-
-    Card.race race;
+    String creator;
 
     /**
      * Constructor
      * */
 
-    public Card(String _name, int _attack, int _defense, int _cost, type _type, race _race){
-
-        /*
-        * setting the vars with respective setters
-        * */
-
-        setName(_name);
-        setAttack(_attack);
-        setCost(_cost);
-        setDefense(_defense);
-        setRace(_race);
-        setType(_type);
+    public Card(){
 
     }
-
 
     /**
      * Getter - Setter
      * */
 
-    public void setAttack(int attack) {
-        this.attack = attack;
+    public void setCreator(String creator) {
+        this.creator = creator;
     }
 
-    public int getAttack() {
-        return attack;
+    public String getCreator() {
+        return creator;
     }
 
-    public void setCost(int cost) {
-        this.cost = cost;
+    public void setID(String ID) {
+        this.ID = ID;
     }
 
-    public int getCost() {
-        return cost;
-    }
-
-    public void setDefense(int defense) {
-        this.defense = defense;
-    }
-
-    public int getDefense() {
-        return defense;
+    public String getID() {
+        return ID;
     }
 
     public void setName(String name) {
@@ -98,19 +50,5 @@ public class Card {
         return name;
     }
 
-    public void setRace(Card.race race) {
-        this.race = race;
-    }
 
-    public Card.race getRace() {
-        return race;
-    }
-
-    public void setType(Card.type type) {
-        this.type = type;
-    }
-
-    public Card.type getType() {
-        return type;
-    }
 }
