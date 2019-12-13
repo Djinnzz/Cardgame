@@ -12,6 +12,8 @@ public class Card {
     private String name;       // cardname
     private String ID;         // card ID
 
+    String effectText;
+
     String creator;
 
     /**
@@ -40,6 +42,14 @@ public class Card {
 
     public String getID() {
         return ID;
+    }
+
+    public void setEffectText(String effectText) {
+        this.effectText = effectText;
+    }
+
+    public String getEffectText() {
+        return effectText;
     }
 
     public void setName(String name) {

@@ -1,6 +1,16 @@
+/**
+ *
+ * */
+
 public class Set_BASE extends Set{
 
     public Set_BASE(){
+
+        /**
+         * setting set name
+         * */
+
+        setName("BASE");
 
         /**
          * adding cards to the list

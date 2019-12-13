@@ -1,5 +1,3 @@
-import java.lang.reflect.Type;
-
 /**
  * Creature-card class (superclass for all Creatures)
  * contains all creature related information
@@ -14,8 +12,6 @@ public class Card_Creature extends Card{
     private int attack;        // card attack stat
     private int defense;       // card defense stat
     private int cost;          // cost of a card
-
-    String effectText;
 
     /**
      * Card Elements
@@ -82,14 +78,6 @@ public class Card_Creature extends Card{
 
     public int getCost() {
         return cost;
-    }
-
-    public void setEffectText(String effectText) {
-        this.effectText = effectText;
-    }
-
-    public String getEffectText() {
-        return effectText;
     }
 
     public void setDefense(int defense) {
