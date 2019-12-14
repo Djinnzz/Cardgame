@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Set class: contains a list with all cards of a set
@@ -40,12 +41,38 @@ public class Set {
     public void printCardList(){
 
         System.out.println("** Cardlist **");
-        System.out.println("Set:        "+getName()+"\n");
+        System.out.println("Set:            "+getName()+"\n");
 
         for(int i = 0; i < cardList.size(); i++ ){
-            System.out.println("ID:         "+cardList.get(i).getID());
-            System.out.println("Name:       "+cardList.get(i).getName());
-            System.out.println("Creator:    "+cardList.get(i).getCreator());
+
+            if(cardList.get(i) instanceof Card_Creature){
+
+                System.out.println("ID:             "+cardList.get(i).getID());
+                System.out.println("Name:           "+cardList.get(i).getName());
+                System.out.println("Creator:        "+cardList.get(i).getCreator());
+
+                System.out.println("Attack:         "+((Card_Creature) cardList.get(i)).getAttack());
+                System.out.println("Defense:        "+((Card_Creature) cardList.get(i)).getDefense());
+
+                System.out.println("Element:        "+((Card_Creature) cardList.get(i)).getElement());
+                System.out.println("Race:           "+((Card_Creature) cardList.get(i)).getRace());
+                System.out.println("Monsterclass:   "+((Card_Creature) cardList.get(i)).getMonsterClass());
+
+                System.out.println("Type:           "+((Card_Creature) cardList.get(i)).getType());
+                System.out.println("Effect:         "+( cardList.get(i)).getEffectText());
+
+            }
+
+            if(cardList.get(i) instanceof Card_Spell){
+
+                System.out.println("ID:             "+cardList.get(i).getID());
+                System.out.println("Name:           "+cardList.get(i).getName());
+                System.out.println("Creator:        "+cardList.get(i).getCreator());
+
+                System.out.println("Type:           "+((Card_Spell) cardList.get(i)).getType());
+                System.out.println("Effect:         "+( cardList.get(i)).getEffectText());
+
+            }
 
             System.out.println("");
         }

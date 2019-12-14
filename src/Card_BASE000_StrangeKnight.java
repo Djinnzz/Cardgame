@@ -16,6 +16,7 @@ public class Card_BASE000_StrangeKnight extends Card_Creature{
 
         setElement(Element.gaia);
         setRace(Race.human);
+        setMonsterClass(MonsterClass.warrior);
 
         setType(Type.effect);
         setEffectText("When this card is summoned, you can search one \"Adventures-Guild\" card in your deck and take it to your hand. Shuffle your deck afterwards.");

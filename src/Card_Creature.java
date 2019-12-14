@@ -29,7 +29,7 @@ public class Card_Creature extends Card{
     private Element element;
 
     /**
-     * Card races
+     * Card Races
      * */
 
     public enum Race {
@@ -50,6 +50,20 @@ public class Card_Creature extends Card{
     }
 
     private Type type;
+
+    /**
+     * Card Class
+     * */
+
+    public enum MonsterClass{
+        warrior,
+        thief,
+        wizard,
+        shaman,
+        beast
+    }
+
+    private MonsterClass monsterClass;
 
     /**
      * Constructor
@@ -94,6 +108,14 @@ public class Card_Creature extends Card{
 
     public int getDefense() {
         return defense;
+    }
+
+    public void setMonsterClass(MonsterClass monsterClass) {
+        this.monsterClass = monsterClass;
+    }
+
+    public MonsterClass getMonsterClass() {
+        return monsterClass;
     }
 
     public void setRace(Card_Creature.Race race) {
