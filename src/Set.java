@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Set class: contains a list with all cards of a set
@@ -56,7 +55,7 @@ public class Set {
 
                 System.out.println("Element:        "+((Card_Creature) cardList.get(i)).getElement());
                 System.out.println("Race:           "+((Card_Creature) cardList.get(i)).getRace());
-                System.out.println("Monsterclass:   "+((Card_Creature) cardList.get(i)).getMonsterClass());
+                System.out.println("Monsterclass:   "+((Card_Creature) cardList.get(i)).getCreatureClass());
 
                 System.out.println("Type:           "+((Card_Creature) cardList.get(i)).getType());
                 System.out.println("Effect:         "+( cardList.get(i)).getEffectText());

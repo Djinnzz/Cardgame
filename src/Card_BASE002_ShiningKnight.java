@@ -1,6 +1,8 @@
 /**
  * Card: Shining Knight
  * ID: BASE002
+ *
+ * A knight with a giant broadsword that cleaves everything into 2 pieces.
  * */
 
 public class Card_BASE002_ShiningKnight extends Card_Creature{
@@ -16,7 +18,7 @@ public class Card_BASE002_ShiningKnight extends Card_Creature{
 
         setElement(Element.gaia);
         setRace(Race.human);
-        setMonsterClass(MonsterClass.warrior);
+        setCreatureClass(CreatureClass.warrior);
 
         setType(Type.effect);
         setEffectText("As long as this card is on your side of the field, \"AdventureGuild\" cant be destroyed");

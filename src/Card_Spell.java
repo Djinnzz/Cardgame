@@ -13,7 +13,8 @@ public class Card_Spell extends Card {
     public enum Type {
         field,
         quick,
-        perma
+        permanent,
+        equipment
     }
 
     private Type type;
