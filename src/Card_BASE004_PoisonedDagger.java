@@ -1,8 +1,8 @@
 /**
  * Card: Poisoned Dagger
- * ID: BASE001
+ * ID: BASE004
  *
- * The home of Adventures. A big cozy tavern.
+ * An inconspicuous small dagger with poison dripping from it.
  * */
 
 public class Card_BASE004_PoisonedDagger extends Card_Spell{

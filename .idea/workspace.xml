@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c7c34c2-5816-4656-8b77-6865c292e9cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card_BASE000_StrangeKnight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card_BASE000_StrangeKnight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card_BASE001_AdventureGuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card_BASE001_AdventureGuild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card_BASE002_ShiningKnight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card_BASE002_ShiningKnight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card_BASE003_Golgot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card_BASE003_Golgot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card_Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card_Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card_Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card_Spell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Card_BASE004_PoisonedDagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card_BASE004_PoisonedDagger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Set_BASE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Set_BASE.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,32 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Card.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" />
-              <folding>
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Card_BASE002_ShiningKnight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Card_BASE001_AdventureGuild.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -59,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/Card_Spell.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -67,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Card_Creature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+            <state relative-caret-position="1292">
+              <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -85,20 +56,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Set.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="334">
               <caret line="35" column="24" selection-start-line="34" selection-start-column="7" selection-end-line="35" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Card_BASE004_PoisonedDagger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Card_BASE005_PatronOfTheGuild.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="25" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Card_BASE004_PoisonedDagger.java">
+        <entry file="file://$PROJECT_DIR$/src/Card_BASE006_ApprenticeLapis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="119">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -106,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Set_BASE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            <state relative-caret-position="646">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -115,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Card_BASE003_Golgot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="25" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -141,7 +127,6 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Set.java" />
         <option value="$PROJECT_DIR$/src/Cards/Card_BASE003_Golgot.java" />
-        <option value="$PROJECT_DIR$/src/Set_BASE.java" />
         <option value="$PROJECT_DIR$/src/Card_BASE003_Golgot.java" />
         <option value="$PROJECT_DIR$/src/Card_BASE002_ShiningKnight.java" />
         <option value="$PROJECT_DIR$/src/Card_BASE000_StrangeKnight.java" />
@@ -149,6 +134,12 @@
         <option value="$PROJECT_DIR$/src/Card_BASE001_AdventureGuild.java" />
         <option value="$PROJECT_DIR$/src/Card_Creature.java" />
         <option value="$PROJECT_DIR$/src/Card_BASE004_PoisonedDagger.java" />
+        <option value="$PROJECT_DIR$/src/Card_BASE005_PaladinOfTheGuild.java" />
+        <option value="$PROJECT_DIR$/src/Card_BASE005_PatreonOfTheGuild.java" />
+        <option value="$PROJECT_DIR$/src/Card_BASE005_PatronOfTheGuild.java" />
+        <option value="$PROJECT_DIR$/src/Card_BASE006_ApprentisLapis.java" />
+        <option value="$PROJECT_DIR$/src/Card_BASE006_ApprenticeLapis.java" />
+        <option value="$PROJECT_DIR$/src/Set_BASE.java" />
       </list>
     </option>
   </component>
@@ -163,8 +154,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,7 +227,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33783785" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34062004" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -320,41 +311,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Set_BASE.java">
+    <entry file="file://$PROJECT_DIR$/src/Card_BASE002_ShiningKnight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="35" column="24" selection-start-line="34" selection-start-column="7" selection-end-line="35" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Card_Spell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="68">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Card_BASE001_AdventureGuild.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Card_Spell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Card_Creature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Card_BASE004_PoisonedDagger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Card_BASE003_Golgot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -365,24 +360,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Card_Creature.java">
+    <entry file="file://$PROJECT_DIR$/src/Card_BASE005_PatronOfTheGuild.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Card_BASE002_ShiningKnight.java">
+    <entry file="file://$PROJECT_DIR$/src/Set.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+        <state relative-caret-position="334">
+          <caret line="35" column="24" selection-start-line="34" selection-start-column="7" selection-end-line="35" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Card_BASE004_PoisonedDagger.java">
+    <entry file="file://$PROJECT_DIR$/src/Set_BASE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="646">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Card_BASE006_ApprenticeLapis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
