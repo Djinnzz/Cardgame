@@ -3,7 +3,7 @@
  * contains all creature related information
  * */
 
-public abstract class Card_Creature extends Card{
+public class Card_Creature extends Card{
 
     /**
      * Card vars
@@ -70,6 +70,87 @@ public abstract class Card_Creature extends Card{
      * */
 
     public Card_Creature(){
+
+    }
+
+    /**
+     * Phases
+     * */
+
+    /**
+     * PreparePhase
+     * First phase of a turn
+     * */
+
+    public void procPrepare(){
+
+        // starts at the start of a turn
+
+    }
+
+    /**
+     * Summoning Phase
+     * */
+
+    public void procSummon(){
+
+        // starts when this got summoned
+
+    }
+
+    /**
+     * Battlephase
+     * Second phase of a turn
+     **/
+
+    /**
+     * Start of the fight procs
+    */
+
+    public void procDefense(){
+
+        // starts at the start of the fight
+        // triggers individual card effects that proc when they get attacked
+
+    }
+
+    public void procAttack(){
+
+        // starts at the start of a fight
+        // triggers individual card effects that proc when they attack
+
+    }
+
+    /**
+     * The fight itself
+     * */
+
+    public boolean attack(Card_Creature card2){
+
+        // attacking method (starts when 1 creature attacks another)
+
+        System.out.println(this.getName()+" attacks "+card2.getName()+"!");
+
+        if(this.getAttack()  > card2.getDefense()){
+
+            return true;
+        }
+
+        else /* (card1.getAttack() <= card2.getDefense()) */ {
+
+            return false;
+
+        }
+
+    }
+
+    /**
+     * Afterfight procs
+     * */
+
+    public void procEndFight(){
+
+        // should remove temporal effects that where added by procDefense or procAttack
 
     }
 

@@ -27,4 +27,11 @@ public class Card_BASE000_StrangeKnight extends Card_Creature{
 
     }
 
+    @Override
+    public void procSummon(){
+
+        // should search an "Adventure-Guild" card from the deck and add it to your hand.
+        // not implemented yet, cuz neiter deck nor a hand exists.
+
+    }
 }

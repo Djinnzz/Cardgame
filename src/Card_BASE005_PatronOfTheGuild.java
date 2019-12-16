@@ -29,4 +29,12 @@ public class Card_BASE005_PatronOfTheGuild extends Card_Creature{
 
     }
 
+    @Override
+    public void procPrepare(){
+
+        // player health +200
+        // not finished coz player class is not implemented atm
+
+    }
+
 }

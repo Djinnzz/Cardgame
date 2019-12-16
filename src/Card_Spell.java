@@ -20,6 +20,31 @@ public abstract class Card_Spell extends Card {
     private Type type;
 
     /**
+     * Phases
+     * */
+
+    /**
+     * PreparePhase
+     * First phase of a turn
+     * */
+
+    public void procPrepare(){
+
+        // starts at the start of a turn
+
+    }
+
+    /**
+     * Summoning Phase
+     * */
+
+        public void procSummon(){
+
+        // starts when this got summoned
+
+    }
+
+    /**
      * Getter and Setter
      * */
 
