@@ -21,7 +21,7 @@ public class Card_BASE000_StrangeKnight extends Card_Creature{
         setCreatureClass(CreatureClass.warrior);
 
         setType(Type.effect);
-        setEffectText("When this card is summoned, you can search one \"Adventures-Guild\" card in your deck and take it to your hand. Shuffle your deck afterwards.");
+        setEffectText("When this card is summoned, you can search one \"Adventure-Guild\" card in your deck and take it to your hand. Shuffle your deck afterwards.");
 
         setCreator("Djinnz");
 

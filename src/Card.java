@@ -1,9 +1,11 @@
+import java.util.ArrayList;
+
 /**
  * Card class
  * contains ID and name of a card
  * */
 
-public class Card {
+public abstract class Card {
 
     /**
      * Card vars
@@ -15,6 +17,12 @@ public class Card {
     private String effectText;
 
     private String creator;
+
+    private ArrayList<Tags> tagList = new ArrayList();
+
+    public enum Tags {
+        AdventureGuild
+    }
 
     /**
      * Constructor
@@ -60,5 +68,11 @@ public class Card {
         return name;
     }
 
+    public void addToTagList(Tags tag){
+        tagList.add(tag);
+    }
 
+    public ArrayList getTagList() {
+        return tagList;
+    }
 }

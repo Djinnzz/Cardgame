@@ -4,7 +4,7 @@
  * */
 
 
-public class Card_Spell extends Card {
+public abstract class Card_Spell extends Card {
 
     /**
      * spell type

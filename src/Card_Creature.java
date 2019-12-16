@@ -3,7 +3,7 @@
  * contains all creature related information
  * */
 
-public class Card_Creature extends Card{
+public abstract class Card_Creature extends Card{
 
     /**
      * Card vars

@@ -21,7 +21,9 @@ public class Card_BASE005_PatronOfTheGuild extends Card_Creature{
         setCreatureClass(CreatureClass.warrior);
 
         setType(Type.effect);
-        setEffectText("While this card is on your side of the field, heal 200 health at the begin of your turn. This effect can be activated once per turn.");
+        setEffectText("This card counts as \"Adventure-Guild\" card. While this card is on your side of the field, heal 200 health at the begin of your turn. This effect can be activated once per turn.");
+
+        addToTagList(Tags.AdventureGuild);
 
         setCreator("Djinnz");
 

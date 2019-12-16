@@ -4,7 +4,7 @@ import java.util.ArrayList;
  * Set class: contains a list with all cards of a set
  * */
 
-public class Set {
+public abstract class Set {
 
     private String name;                                    // name of the set
 
@@ -55,10 +55,19 @@ public class Set {
 
                 System.out.println("Element:        "+((Card_Creature) cardList.get(i)).getElement());
                 System.out.println("Race:           "+((Card_Creature) cardList.get(i)).getRace());
-                System.out.println("Monsterclass:   "+((Card_Creature) cardList.get(i)).getCreatureClass());
+                System.out.println("Creatureclass:  "+((Card_Creature) cardList.get(i)).getCreatureClass());
 
                 System.out.println("Type:           "+((Card_Creature) cardList.get(i)).getType());
                 System.out.println("Effect:         "+( cardList.get(i)).getEffectText());
+
+                // printing card tags
+                if(cardList.get(i).getTagList().size() != 0){
+                    System.out.print("Tags:           ");
+                    for(int c = 0; c < cardList.get(i).getTagList().size(); c++){
+                        System.out.print(cardList.get(i).getTagList().get(c));
+                    }
+                    System.out.println("");
+                }
 
             }
 
@@ -70,6 +79,15 @@ public class Set {
 
                 System.out.println("Type:           "+((Card_Spell) cardList.get(i)).getType());
                 System.out.println("Effect:         "+( cardList.get(i)).getEffectText());
+
+                // printing card tags
+                if(cardList.get(i).getTagList().size() != 0){
+                    System.out.print("Tags:           ");
+                    for(int c = 0; c < cardList.get(i).getTagList().size(); c++){
+                        System.out.print(cardList.get(i).getTagList().get(c));
+                    }
+                    System.out.println("");
+                }
 
             }
 

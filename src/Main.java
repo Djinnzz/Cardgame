@@ -1,10 +1,8 @@
-import java.util.ArrayList;
-
 /**
  * Main class (testing purpose)
  * */
 
-public class Main {
+public abstract class Main {
 
     public static void main(String[] args) {
 
