@@ -1,0 +1,35 @@
+*** Creature Cards ***
+
+cost 0, non effect:
+
+attack max 1200
+defense max 1200
+
+cost 0, effect:
+
+attack max 1000
+defense max 1000
+
+cost 1, non effect:
+
+attack max 2300
+defense max 2300
+
+cost 1, effect:
+
+attack max 2000
+defense max 2000
+
+cost 2, non effect:
+
+attack max 3400
+defense max 3400
+
+cost 2 effect:
+
+attack max 3000
+defense max 3000
+
+*1 those attack stats mean flat attack, there can be creatures that have some kind of effect that makes their attack or defense stat variable and where it is possible to get higher numbers than stated.
+*2 those numbers are generell guidelines, this doesnt mean that there cant be creatures with higher stats. 
+*3 if a monster gets more attack or more defense than stated up top, it should have an effect that balances all of this. Something like sacrifice a spell card everytime you want to attack or stuff like that.

@@ -155,6 +155,38 @@ public class Card_Creature extends Card{
     }
 
     /**
+     * print card method
+     * */
+
+    @Override
+    public void printCard(){
+
+        System.out.println("ID:             "+this.getID());
+        System.out.println("Name:           "+this.getName());
+        System.out.println("Creator:        "+this.getCreator());
+
+        System.out.println("Attack:         "+this.getAttack());
+        System.out.println("Defense:        "+this.getDefense());
+
+        System.out.println("Element:        "+this.getElement());
+        System.out.println("Race:           "+this.getRace());
+        System.out.println("Creatureclass:  "+this.getCreatureClass());
+
+        System.out.println("Type:           "+this.getType());
+        System.out.println("Effect:         "+this.getEffectText());
+
+        // printing card tags
+        if(this.getTagList().size() != 0){
+            System.out.print("Tags:           ");
+            for(int c = 0; c < this.getTagList().size(); c++){
+                System.out.print(this.getTagList().get(c));
+            }
+            System.out.println("");
+        }
+
+    }
+
+    /**
      * Getter - Setter
      * */
 

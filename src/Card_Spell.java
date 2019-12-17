@@ -48,6 +48,27 @@ public abstract class Card_Spell extends Card {
      * Getter and Setter
      * */
 
+    @Override
+    public void printCard(){
+
+        System.out.println("ID:             "+this.getID());
+        System.out.println("Name:           "+this.getName());
+        System.out.println("Creator:        "+this.getCreator());
+
+        System.out.println("Type:           "+this.getType());
+        System.out.println("Effect:         "+this.getEffectText());
+
+        // printing card tags
+        if(this.getTagList().size() != 0){
+            System.out.print("Tags:           ");
+            for(int c = 0; c < this.getTagList().size(); c++){
+                System.out.print(this.getTagList().get(c));
+            }
+            System.out.println("");
+        }
+
+    }
+
     public void setType(Type type) {
         this.type = type;
     }

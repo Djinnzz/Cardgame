@@ -44,53 +44,7 @@ public abstract class Set {
 
         for(int i = 0; i < cardList.size(); i++ ){
 
-            if(cardList.get(i) instanceof Card_Creature){
-
-                System.out.println("ID:             "+cardList.get(i).getID());
-                System.out.println("Name:           "+cardList.get(i).getName());
-                System.out.println("Creator:        "+cardList.get(i).getCreator());
-
-                System.out.println("Attack:         "+((Card_Creature) cardList.get(i)).getAttack());
-                System.out.println("Defense:        "+((Card_Creature) cardList.get(i)).getDefense());
-
-                System.out.println("Element:        "+((Card_Creature) cardList.get(i)).getElement());
-                System.out.println("Race:           "+((Card_Creature) cardList.get(i)).getRace());
-                System.out.println("Creatureclass:  "+((Card_Creature) cardList.get(i)).getCreatureClass());
-
-                System.out.println("Type:           "+((Card_Creature) cardList.get(i)).getType());
-                System.out.println("Effect:         "+( cardList.get(i)).getEffectText());
-
-                // printing card tags
-                if(cardList.get(i).getTagList().size() != 0){
-                    System.out.print("Tags:           ");
-                    for(int c = 0; c < cardList.get(i).getTagList().size(); c++){
-                        System.out.print(cardList.get(i).getTagList().get(c));
-                    }
-                    System.out.println("");
-                }
-
-            }
-
-            if(cardList.get(i) instanceof Card_Spell){
-
-                System.out.println("ID:             "+cardList.get(i).getID());
-                System.out.println("Name:           "+cardList.get(i).getName());
-                System.out.println("Creator:        "+cardList.get(i).getCreator());
-
-                System.out.println("Type:           "+((Card_Spell) cardList.get(i)).getType());
-                System.out.println("Effect:         "+( cardList.get(i)).getEffectText());
-
-                // printing card tags
-                if(cardList.get(i).getTagList().size() != 0){
-                    System.out.print("Tags:           ");
-                    for(int c = 0; c < cardList.get(i).getTagList().size(); c++){
-                        System.out.print(cardList.get(i).getTagList().get(c));
-                    }
-                    System.out.println("");
-                }
-
-            }
-
+            cardList.get(i).printCard();
             System.out.println("");
         }
 

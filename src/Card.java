@@ -33,6 +33,14 @@ public abstract class Card {
     }
 
     /**
+     * print card super method
+     * */
+
+    public void printCard(){
+
+    }
+
+    /**
      * Getter - Setter
      * */
 
