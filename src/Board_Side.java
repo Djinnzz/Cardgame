@@ -1,6 +1,12 @@
 public class Board_Side {
 
     /**
+     * player stats
+     * */
+
+    int health;
+
+    /**
      * Five creature slots
      * */
 

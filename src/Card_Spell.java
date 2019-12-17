@@ -35,7 +35,7 @@ public abstract class Card_Spell extends Card {
     }
 
     /**
-     * Summoning Phase
+     * Summon Phase
      * */
 
         public void procSummon(){

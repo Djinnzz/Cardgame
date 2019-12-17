@@ -1,3 +1,5 @@
+import java.io.File;
+
 /**
  * Card: Strange Knight
  * ID: BASE000
@@ -24,6 +26,8 @@ public class Card_BASE000_StrangeKnight extends Card_Creature{
         setEffectText("When this card is summoned, you can search one \"Adventure-Guild\" card in your deck and take it to your hand. Shuffle your deck afterwards.");
 
         setCreator("Djinnz");
+
+        setImage(new File("./media/StrangeKnight.png"));
 
     }
 

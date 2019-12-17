@@ -66,6 +66,15 @@ public class Card_Creature extends Card{
     private CreatureClass creatureClass;
 
     /**
+     * Card Position
+     * */
+
+    public enum position{
+        offensiv,
+        defensiv
+    }
+
+    /**
      * Constructor
      * */
 
@@ -89,7 +98,7 @@ public class Card_Creature extends Card{
     }
 
     /**
-     * Summoning Phase
+     * Summon Phase
      * */
 
     public void procSummon(){
@@ -125,7 +134,12 @@ public class Card_Creature extends Card{
      * The fight itself
      * */
 
-    public boolean attack(Card_Creature card2){
+    public void attack(Card_Creature card2){
+
+        // procs attack and defense effects
+
+        this.getAttack();
+        card2.procDefense();
 
         // attacking method (starts when 1 creature attacks another)
 
@@ -133,12 +147,20 @@ public class Card_Creature extends Card{
 
         if(this.getAttack()  > card2.getDefense()){
 
-            return true;
+            this.procEndFight();
+            card2.procEndFight();
+
+            destroyCard(card2);
+
+
         }
 
         else /* (card1.getAttack() <= card2.getDefense()) */ {
 
-            return false;
+            this.procEndFight();
+            card2.procEndFight();
+
+
 
         }
 
@@ -185,6 +207,7 @@ public class Card_Creature extends Card{
         }
 
     }
+
 
     /**
      * Getter - Setter

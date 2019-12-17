@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.ArrayList;
 
 /**
@@ -25,6 +26,12 @@ public abstract class Card {
     }
 
     /**
+     * Card image
+     * */
+
+    private File image;
+
+    /**
      * Constructor
      * */
 
@@ -37,6 +44,21 @@ public abstract class Card {
      * */
 
     public void printCard(){
+
+    }
+
+
+    /**
+     * destroy card method
+     * */
+
+    public void destroyCard(Card card){
+
+        if(card instanceof Card_Creature){
+
+
+
+        }
 
     }
 
@@ -68,6 +90,14 @@ public abstract class Card {
         return effectText;
     }
 
+    public void setImage(File image) {
+        this.image = image;
+    }
+
+    public File getImage() {
+        return image;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -83,4 +113,6 @@ public abstract class Card {
     public ArrayList getTagList() {
         return tagList;
     }
+
+
 }
