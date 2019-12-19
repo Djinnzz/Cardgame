@@ -2,36 +2,67 @@
  * Main class (testing purpose)
  * */
 
-public abstract class Main {
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.control.TextArea;
+import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+
+public class Main extends Application{
 
     public static void main(String[] args) {
 
         /**
-         * Tests if the set is filled correctly
+         * Pre game testing-area
          * */
 
-        Set_BASE base= new Set_BASE();
-
-        base.printCardList();
+        _Test.testSetList(new Set_BASE());
 
         /**
-         * Tests the attack function
+         * Launch the Frame
          * */
 
-        System.out.println("test attack: ");
+        Application.launch(args);
 
-        Card_BASE005_PatronOfTheGuild card1 = new Card_BASE005_PatronOfTheGuild();
-        Card_BASE006_ApprenticeLapis card2 = new Card_BASE006_ApprenticeLapis();
+    }
 
-        card1.attack(card2);
+    @Override
+    public void start(Stage stage) {
 
-        /**
-         * Tests if image of card is set correct
-         * */
+        try {
 
-        Card_BASE000_StrangeKnight card0 = new Card_BASE000_StrangeKnight();
+            // Create the FXMLLoader
+            FXMLLoader loader = new FXMLLoader();
+            // Path to the FXML File
+            String fxmlDocPath = "scenePreMain.fxml";
+            FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
 
-        _Test_ShowCardImage.openCardImage(card0);
+            // Create the Pane and all Details
+            AnchorPane root = loader.load(fxmlStream);
+
+            // Create the Scene
+            Scene scene = new Scene(root);
+            // Set the Scene to the Stage
+            stage.setScene(scene);
+            // Set the Title to the Stage
+            stage.setTitle(_GameInformation.getGameName());
+            // Display the Stage
+            stage.show();
+
+        } catch (FileNotFoundException e) {
+            Error_MessageFrame.printMessage(1,"scenePreMain.fxml does not exist");
+            e.printStackTrace();
+        } catch (IOException e) {
+            Error_MessageFrame.printMessage(2,"cant load scenePreMain.fxml");
+            e.printStackTrace();
+        }
+
 
     }
 

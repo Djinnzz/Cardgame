@@ -1,0 +1,3 @@
+Errornumber:	How to fix:
+0		Just the test error should never occur
+1		The .fxml file for the launch screen does not exist or is corrupted
