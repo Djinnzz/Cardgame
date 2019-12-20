@@ -12,7 +12,7 @@ public abstract class _Test {
          * Tests Error message
          * */
 
-        Error_MessageFrame.printMessage(0,"Test Error");
+        _Error_MessageFrame.printMessage(0,"Test Error");
     }
 
     public static void testCardImage(){
@@ -27,7 +27,6 @@ public abstract class _Test {
         ImageIcon imageIcon = new ImageIcon(String.valueOf(card0.getImage()));
         JLabel jLabel = new JLabel(imageIcon);
         jFrame.add(jLabel);
-        jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jFrame.pack();
         jFrame.setVisible(true);
 

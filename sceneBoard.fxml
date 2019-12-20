@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="1153.0" layoutY="527.0" prefHeight="172.5" prefWidth="122.5" style="-fx-background-color: black;" text="Label" />
+      <Label layoutX="1225.0" layoutY="712.0" prefHeight="172.5" prefWidth="122.5" style="-fx-background-color: black;" text="Label" />
+      <Label layoutX="664.0" layoutY="527.0" prefHeight="172.5" prefWidth="122.5" style="-fx-background-color: black;" text="Label" />
+      <Label layoutX="911.0" layoutY="527.0" prefHeight="172.5" prefWidth="122.5" style="-fx-background-color: black;" text="Label" />
+      <Label layoutX="1059.0" layoutY="712.0" prefHeight="172.5" prefWidth="122.5" style="-fx-background-color: black;" text="Label" />
+      <Label layoutX="1388.0" layoutY="712.0" prefHeight="172.5" prefWidth="122.5" style="-fx-background-color: black;" text="Label" />
+      <Label layoutX="1388.0" layoutY="527.0" prefHeight="172.5" prefWidth="122.5" style="-fx-background-color: black;" text="Label" />
+      <Label layoutX="1660.0" layoutY="527.0" prefHeight="172.5" prefWidth="122.5" style="-fx-background-color: black;" text="Label" />
+      <Label layoutX="1660.0" layoutY="712.0" prefHeight="172.5" prefWidth="122.5" style="-fx-background-color: black;" text="Label" />
+      <Label layoutX="420.0" layoutY="527.0" prefHeight="172.5" prefWidth="122.5" style="-fx-background-color: black;" text="Label" />
+      <Label layoutX="899.0" layoutY="712.0" prefHeight="172.5" prefWidth="122.5" style="-fx-background-color: black;" text="Label" />
+      <Label layoutX="207.0" layoutY="712.0" prefHeight="172.5" prefWidth="122.5" style="-fx-background-color: black;" text="Label" />
+      <Label layoutX="207.0" layoutY="527.0" prefHeight="172.5" prefWidth="122.5" style="-fx-background-color: black;" text="Label" />
+      <Label layoutX="737.0" layoutY="712.0" prefHeight="172.5" prefWidth="122.5" style="-fx-background-color: black;" text="Label" />
+      <Label layoutX="1388.0" layoutY="527.0" prefHeight="172.5" prefWidth="122.5" rotate="90.0" style="-fx-background-color: blue;" text="Label" />
+      <Label layoutX="664.0" layoutY="527.0" prefHeight="172.5" prefWidth="122.5" rotate="90.0" style="-fx-background-color: blue;" text="Label" />
+      <Label layoutX="1153.0" layoutY="527.0" prefHeight="172.5" prefWidth="122.5" rotate="90.0" style="-fx-background-color: blue;" text="Label" />
+      <Label layoutX="420.0" layoutY="527.0" prefHeight="172.5" prefWidth="122.5" rotate="90.0" style="-fx-background-color: blue;" text="Label" />
+      <Label layoutX="911.0" layoutY="527.0" prefHeight="172.5" prefWidth="122.5" rotate="90.0" style="-fx-background-color: blue;" text="Label" />
+      <Label layoutX="420.0" layoutY="712.0" prefHeight="172.5" prefWidth="122.5" style="-fx-background-color: black;" text="Label" />
+      <Label layoutX="578.0" layoutY="712.0" prefHeight="172.5" prefWidth="122.5" style="-fx-background-color: black;" text="Label" />
+   </children>
+</AnchorPane>

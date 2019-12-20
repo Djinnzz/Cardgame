@@ -5,7 +5,7 @@
 import javax.swing.*;
 
 
-public abstract class Error_MessageFrame {
+public abstract class _Error_MessageFrame {
 
     public static void printMessage(int errorNumber, String message){
 
